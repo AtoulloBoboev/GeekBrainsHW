@@ -7,7 +7,7 @@ public class HomeWorkApp {
         printColor();
         compareNumbers();
     }
-    
+
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
@@ -32,7 +32,7 @@ public class HomeWorkApp {
 
 
     public static void printColor() {
-        int value = -25;
+        int value = 25;
         if (value <= 0) {
             System.out.println("Красный");
         } else if (value <= 100) {
